@@ -1,0 +1,62 @@
+.tela {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('src\app\tela-inicial\img\img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .button1 {
+    font-family: 'trebuchet ms';
+    color: #FFFFFF !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    position: relative;
+    left:25%;
+    width: 300px;
+    right:500px;
+    top:400px;
+    padding: 10px 60px;
+    border-radius: 26px;
+    border: 0px solid black;
+    background: #000000;
+    background: linear-gradient(to top, black, #000000);
+    position: relative;
+  }
+  .button1:hover {
+    color: #FCFFFD !important;
+    background: #000000;
+    background: linear-gradient(to top, #474945, #474945);
+  }
+  
+  .button2 {
+    font-family: 'trebuchet ms';
+    color: #FFFFFF !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    position: relative;
+    left:30%;
+    width: 300px;
+    right:500px;
+    top:400px;
+    padding: 10px 50px;
+    border-radius: 26px;
+    border: 0px solid black;
+    background: #000000;
+    background: linear-gradient(to top, black, #000000);
+    position: relative;
+  }
+  .button2:hover {
+    color: #FCFFFD !important;
+    background: #000000;
+    background: linear-gradient(to top, #474945, #474945);
+  }
+  
+  
